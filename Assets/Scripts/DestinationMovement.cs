@@ -5,13 +5,14 @@ using UnityEngine;
 public class DestinationMovement : MonoBehaviour {
 
     public GameObject leftMost, rightMost;
-    bool bMoveLeft = true;
+    bool bMoveLeft = false;
 
     public float fSpeed = 10f;
 	// Use this for initialization
 	void Start () {
-		
-	}
+        if (Random.Range(1, 100) % 2 == 0)
+            bMoveLeft = true;
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -36,7 +36,7 @@ public class LanternMovement : MonoBehaviour {
         {
             
 
-            float fX = fgLanternSource.transform.position[0] + Random.Range(-30, 30);
+            float fX = fgLanternSource.transform.position[0] + Random.Range(-30, 0);
             float fY = Random.Range(-50, 10) + fgLanternSource.transform.position[1];
             float fZ = fgLanternSource.transform.position[2] + Random.Range(-40, 30); // To ensure that we have sufficient time between respawning
             Vector3 pos = new Vector3(fX, fY, fZ);

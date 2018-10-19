@@ -5,6 +5,8 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/Lost*
+Assets/uLiveWallpaper*
 Exe/
 
 # Visual Studio cache directory
